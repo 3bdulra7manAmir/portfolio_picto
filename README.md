@@ -42,7 +42,6 @@ Developed by ThemeWagon and development team.
 
 ## License
 
-- Code is Copyright &copy; <a href="http://themewagon.com/" target="_blank">ThemeWagon</a>
+- Design and Code is Copyright &copy; <a href="http://themewagon.com/" target="_blank">ThemeWagon</a>
 - Licensed cover under [MIT]
 - Developed by <a href="http://themewagon.com/" target="_blank">ThemeWagon</a>
-
