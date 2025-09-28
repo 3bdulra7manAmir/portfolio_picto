@@ -10,56 +10,56 @@ const projectData = [
   {
     id: 1,
     image: card1,
-    category: "UI-UX DESIGN",
-    title: "Product Admin Dashboard",
+    category: "Mobile App",
+    title: "Fluency",
     description:
-      "I focus on crafting smooth, responsive interfaces that balance aesthetic appeal with practical functionality.",
-    link: "#!",
+      "A Saudi platform that helps users practice English with professional teachers worldwide. Supports skill-building for education, work, and travel.",
+    link: "https://apps.apple.com/eg/app/fluency-live/id6745734835",
   },
   {
     id: 2,
     image: card2,
-    category: "UI-UX DESIGN",
-    title: "Product Admin Dashboard",
+    category: "Mobile App",
+    title: "Al Haddaf",
     description:
-      "Designed an intuitive dashboard for product management, emphasizing clarity and user efficiency.",
-    link: "#!",
+      "A platform for athletes and coaches to showcase profiles, promote talent, and connect with clubs and agents. Includes video and photo sharing.",
+    link: "https://apps.apple.com/us/app/%D8%A7%D9%84%D9%87%D8%AF%D8%A7%D9%81-al-haddaf/id6741814021",
   },
   {
     id: 3,
     image: card3,
-    category: "UI-UX DESIGN",
-    title: "Product Admin Dashboard",
+    category: "Mobile App",
+    title: "Sehtna",
     description:
-      "Developed a modern admin panel with a focus on usability and seamless navigation for end users and so on.",
-    link: "#!",
+      "A comprehensive healthcare management solution for hospitals, doctors, and patients. Features appointments, medical records, and patient tracking.",
+    link: "https://apps.apple.com/us/app/sehtna-%D8%B5%D8%AD%D8%AA%D9%86%D8%A7/id6746358917",
   },
   {
     id: 4,
     image: card4,
-    category: "UI-UX DESIGN",
-    title: "Product Admin Dashboard",
+    category: "Mobile App",
+    title: "Added Power",
     description:
-      "Created a responsive dashboard layout that adapts smoothly across devices and screen sizes and so on.",
-    link: "#!",
+      "A trusted marketplace for genuine car spare parts from verified suppliers. Provides fast and secure access for car owners and repair specialists.",
+    link: "https://apps.apple.com/sa/app/added-power/id6739585590?uo=2",
   },
   {
     id: 5,
     image: card5,
-    category: "UI-UX DESIGN",
-    title: "Product Admin Dashboard",
+    category: "Mobile App",
+    title: "Rukn Al Aqar",
     description:
-      "Implemented interactive charts and widgets to visualize product data effectively for stakeholders.",
-    link: "#!",
+      "A smart real estate app for buying, selling, and renting apartments. Delivers a simple, fast, and reliable experience for property needs.",
+    link: "https://apps.apple.com/us/app/%D8%B1%D9%83%D9%86-%D8%A7%D9%84%D8%B9%D9%82%D8%A7%D8%B1/id6749784605",
   },
   {
     id: 6,
     image: card6,
-    category: "UI-UX DESIGN",
-    title: "Product Admin Dashboard",
+    category: "Mobile App",
+    title: "Manzoma",
     description:
-      "Enhanced user experience by streamlining workflows and optimizing interface components and so on.",
-    link: "#!",
+      "A workflow management tool that helps teams and individuals organize tasks, communicate effectively, and boost productivity.",
+    link: "https://apps.apple.com/us/app/manzoma/id6746369002",
   },
 ];
 
@@ -71,13 +71,15 @@ const Portfolio = () => {
     >
       <div className="xl:mb-17.5 mb-5">
         <div className="max-sm:px-2 text-center mx-auto max-w-144.25">
-          <p className="section-title ">Portfolio</p>
+          <p className="section-title">Portfolio</p>
           <p className="font-normal text-[18px] max-sm:text-[14px] pt-6 text-gray-400">
-            Here's a selection of my recent work, showcasing my skills in
-            creating user-centric and visually appealing interfaces.
+            Here’s a selection of my recent Flutter projects, highlighting my
+            experience in building cross-platform mobile apps with clean
+            architecture and responsive design.
           </p>
         </div>
       </div>
+
       <div className="mx-auto flex justify-center">
         <div className="grid xl:grid-cols-3 md:grid-cols-2 gap-6">
           {projectData.map((data, index) => (
@@ -85,12 +87,13 @@ const Portfolio = () => {
           ))}
         </div>
       </div>
+
       <div className="text-center">
         <a
           href="#!"
           className="btn btn-primary py-3 px-6 mt-12.5 text-center text-[16px] font-semibold"
         >
-          More Project
+          More Projects
         </a>
       </div>
     </div>
