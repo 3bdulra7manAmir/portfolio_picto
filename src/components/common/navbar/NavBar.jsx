@@ -94,7 +94,7 @@ const NavBar = () => {
           >
             <img src={logo} className="h-8 sm:h-14 rounded-2xl" alt="logo" />
             <p className="text-2xl sm:text-[32px] my-auto ms-[12px] font-semibold">
-              Brooklyn
+              Abdulrahman
             </p>
           </Link>
         </div>
@@ -103,7 +103,7 @@ const NavBar = () => {
           <ul className="hidden lg:flex menu menu-horizontal text-[16px] font-medium md:shrink-0">
             {menu}
           </ul>
-          <p className="">
+          {/* <p className="">
             <Link
               className="btn btn-sm xs:btn-md sm:btn-lg btn-primary"
               href="#contact"
@@ -113,7 +113,7 @@ const NavBar = () => {
             >
               Contact
             </Link>
-          </p>
+          </p> */}
         </div>
       </div>
     </div>
