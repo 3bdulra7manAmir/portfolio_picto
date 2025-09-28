@@ -1,30 +1,8 @@
 @import "tailwindcss";
 @plugin "daisyui";
-
-/* @plugin "daisyui" {
-  /* themes: light --default, dark --prefersdark, cupcake; */
-  /* themes: dark --prefersdark; */
-/* } */
 @plugin "daisyui" {
-  themes: [
-    {
-      dark: {
-        "primary": "#9929fb",          /* بنفسجي أساسي */
-        "primary-focus": "#650fa0",    /* بنفسجي أغمق */
-        "base-100": "#121212",         /* الخلفية الرئيسية */
-        "base-200": "#1e1e1e",         /* خلفية الكروت */
-        "base-300": "#2a2a2a",         /* حدود أو طبقة أغمق */
-        "neutral": "#a1a1a1",          /* نصوص ثانوية */
-        "neutral-content": "#f0f1f3",  /* نصوص فاتحة */
-        "info": "#29b6f6",
-        "success": "#00c853",
-        "warning": "#ffab00",
-        "error": "#cf6679",
-      },
-    },
-  ];
+  themes: dark --default, light --preferslight, cupcake;
 }
-
 
 * {
   transition-property: all;
@@ -37,22 +15,26 @@
   transition-duration: 200ms;
 }
 
-
 @theme {
-  --breakpoint-xxs: 21.25rem; /* COMMENT: 340px */
-  --breakpoint-xs: 23.125rem; /* COMMENT: 363px */
-  --breakpoint-xxl: 82.5rem; /* COMMENT: 1320px */
-  --color-picto-primary: #9929fb;
-  --color-picto-primary-dark: #650fa0;
-  --color-soft-white: #f0f1f3;
-  --color-soft-dark: #87909d;
+  --breakpoint-xxs: 21.25rem; /* 340px */
+  --breakpoint-xs: 23.125rem; /* 363px */
+  --breakpoint-xxl: 82.5rem; /* 1320px */
+
+  /* مقلوب الألوان علشان يديلك شكل داكن */
+  --color-picto-primary: #bb86fc; /* بنفسجي فاتح للـ dark */
+  --color-picto-primary-dark: #3700b3; /* بنفسجي غامق */
+  --color-soft-white: #1e1e1e; /* بدل الأبيض => غامق */
+  --color-soft-dark: #cfcfcf; /* بدل الرمادي الغامق => فاتح */
 }
 
 .btn-primary {
   @apply bg-picto-primary border-0 text-white hover:scale-[102%] hover:bg-picto-primary-dark transition-all duration-500;
 }
+
 body {
   font-family: "Work Sans", sans-serif;
+  background-color: var(--color-soft-white);
+  color: var(--color-soft-dark);
 }
 
 .content {
@@ -70,15 +52,14 @@ body {
 .introduction-profile-background {
   background: radial-gradient(
       circle at 12% 100%,
-      #ffe2b0f5 1% 5px,
+      #2d2d2d 1% 5px,
       transparent 15%
     ),
-    /* bottom left */
-      radial-gradient(circle at 95% -15%, #da4df166 5%, transparent 30%),
-    /* top right */
-      radial-gradient(circle at center right, #c4f5e9b2 2%, transparent 35%); /* center right */
+    radial-gradient(circle at 95% -15%, #3f1c56 5%, transparent 30%),
+    radial-gradient(circle at center right, #163831 2%, transparent 35%);
 }
+
 .blog-background {
-  background: radial-gradient(circle at -10% 0%, #da4df166 1%, transparent 25%),
-    radial-gradient(circle at 110% 30%, #c4f5e9b2 5%, transparent 25%);
+  background: radial-gradient(circle at -10% 0%, #3f1c56 1%, transparent 25%),
+    radial-gradient(circle at 110% 30%, #163831 5%, transparent 25%);
 }
