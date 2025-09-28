@@ -21,7 +21,7 @@ const menu = navItems.map((item) => (
   <li key={item.id} onMouseDown={(e) => e.preventDefault()}>
     <Link
       onClick={handleMenuClick}
-      to={`#${item.url.toLowerCase()}`}
+      to={item.url.toLowerCase()}
       smooth={true}
       duration={1000}
       spy={true}
