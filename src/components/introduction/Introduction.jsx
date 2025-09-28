@@ -7,17 +7,17 @@ const informationSummaryData = [
   {
     id: 1,
     title: "Experience",
-    description: "15 Y.",
+    description: "1.5 Y.",
   },
   {
     id: 2,
     title: "Projects Completed",
-    description: "250+",
+    description: "6+",
   },
   {
     id: 3,
     title: "Happy Clients",
-    description: "58",
+    description: "5+",
   },
 ];
 
@@ -32,19 +32,20 @@ const Introduction = () => {
           <p className="text-3xl xxs:text-4xl sm:max-xl:text-5xl xl:text-6xl font-semibold w-full">
             Hello, I’m
             <span className="text-nowrap shrink-0 inline-block w-full">
-              Brooklyn Gilbert
+              Abdulrahman Amir
             </span>
           </p>
           <p className="text-xs xxs:text-lg lg:text-[18px] my-6">
-            I'm a Freelance <span className="bg-highlight">UI/UX Designer</span>{" "}
-            and <span className="bg-highlight"> Developer</span> based in
-            London, England. I strives to build immersive and beautiful web
+            I'm a Freelance{" "}
+            <span className="bg-highlight">Flutter Developer</span>{" "}
+            and <span className="bg-highlight">Mobile App Developer</span> based in
+            Al Jizah, Egypt. I strive to build immersive and beautiful mobile
             applications through carefully crafted code and user-centric design.
           </p>
           <p className="text-center lg:text-start">
             <a
               className="btn-primary btn btn-xs xxs:btn-lg text-white"
-              href="mailto:example@gmail.com"
+              href="mailto:ethanhunt4d@gmail.com"
             >
               Say Hello!
             </a>
