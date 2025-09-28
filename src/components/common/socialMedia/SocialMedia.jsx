@@ -2,8 +2,8 @@ import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const socialIcons = [
-  { icon: faLinkedin, link: "https://www.linkedin.com/in/your-username" },
-  { icon: faGithub, link: "https://github.com/your-username" },
+  { icon: faLinkedin, link: "https://www.linkedin.com/in/3bdulra7manamir" },
+  { icon: faGithub, link: "https://github.com/3bdulra7manAmir" },
   // { icon: faFacebookF, link: "#!" },
   // { icon: faDribbble, link: "#!" },
   // { icon: faInstagram, link: "#!" },
