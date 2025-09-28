@@ -1,18 +1,13 @@
-import {
-  faGitHub,
-  // faDribbble,
-  // faFacebookF,
-  // faInstagram,
-  faLinkedin,
-} from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const socialIcons = [
+  { icon: faLinkedin, link: "https://www.linkedin.com/in/your-username" },
+  { icon: faGithub, link: "https://github.com/your-username" },
   // { icon: faFacebookF, link: "#!" },
   // { icon: faDribbble, link: "#!" },
   // { icon: faInstagram, link: "#!" },
-  { icon: faLinkedin, link: "#!" },
-  { icon: faGitHub, link: "#!" },
+  // { icon: faBehance, link: "#!" },
 ];
 
 const SocialMedia = () => {
@@ -21,6 +16,8 @@ const SocialMedia = () => {
       href={item.link}
       className={`text-picto-primary hover:bg-picto-primary p-2 pt-3 xs:p-2.5 xs:pt-3.75 sm:pt-4 md:pt-5 sm:p-3 md:p-3.75 hover:text-white rounded-md`}
       key={index}
+      target="_blank"
+      rel="noopener noreferrer"
     >
       <FontAwesomeIcon
         icon={item.icon}
