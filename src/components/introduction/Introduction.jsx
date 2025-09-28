@@ -36,12 +36,10 @@ const Introduction = () => {
             </span>
           </p>
           <p className="text-xs xxs:text-lg lg:text-[18px] my-6">
-            I'm a Freelance{" "}
-            <span className="bg-highlight">Flutter Developer</span>{" "}
-            and <span className="bg-highlight">Mobile App Developer</span> based in
-            Al Jizah, Egypt. I strive to build immersive and beautiful mobile
-            applications through carefully crafted code and user-centric design.
-          </p>
+  I'm a Freelance <span className="bg-highlight">Flutter Developer</span>.  
+  I specialize in crafting immersive and elegant mobile applications through precise code, user-focused design, and seamless performance.
+</p>
+
           <p className="text-center lg:text-start">
             <a
               className="btn-primary btn btn-xs xxs:btn-lg text-white"
