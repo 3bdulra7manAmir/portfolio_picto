@@ -7,8 +7,8 @@ const navItems = [
   { id: 2, name: "About", url: "profile" },
   { id: 3, name: "Process", url: "work-process" },
   { id: 4, name: "Portfolio", url: "Portfolio" },
-  { id: 5, name: "Blog", url: "Blog" },
-  { id: 6, name: "Services", url: "Services" },
+  // { id: 5, name: "Blog", url: "Blog" },
+  { id: 5, name: "Services", url: "Services" },
 ];
 
 const handleMenuClick = () => {
