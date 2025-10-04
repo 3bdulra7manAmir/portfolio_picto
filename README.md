@@ -1,4 +1,4 @@
-# Picto - Personal Portfolio Free Template
+# Shadow's Portfolio
 
 #### Preview
 
