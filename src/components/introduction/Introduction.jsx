@@ -7,7 +7,7 @@ const informationSummaryData = [
   {
     id: 1,
     title: "Experience",
-    description: "1.5 Y.",
+    description: "2 Y.",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const informationSummaryData = [
   {
     id: 3,
     title: "Happy Clients",
-    description: "5+",
+    description: "3+",
   },
 ];
 
