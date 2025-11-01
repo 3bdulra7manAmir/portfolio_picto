@@ -6,6 +6,10 @@ import card4 from "../../assets/images/portfolio-images/card-4.png";
 import card5 from "../../assets/images/portfolio-images/card-5.png";
 import card6 from "../../assets/images/portfolio-images/card-6.png";
 
+import card7 from "../../assets/images/portfolio-images/card-7.png";
+// import card8 from "../../assets/images/portfolio-images/card-8.png";
+import card9 from "../../assets/images/portfolio-images/card-9.png";
+
 const projectData = [
   {
     id: 1,
@@ -63,7 +67,7 @@ const projectData = [
   },
   {
     id: 7,
-    image: card6,
+    image: card7,
     category: "Mobile App",
     title: "Test Drive (Customer)",
     description:
@@ -72,7 +76,7 @@ const projectData = [
   },
   // {
   //   id: 8,
-  //   image: card6,
+  //   image: card8,
   //   category: "Mobile App",
   //   title: "Manzoma",
   //   description:
@@ -81,7 +85,7 @@ const projectData = [
   // },
   {
     id: 9,
-    image: card6,
+    image: card9,
     category: "Mobile App",
     title: "Ghosn Coffee",
     description:
