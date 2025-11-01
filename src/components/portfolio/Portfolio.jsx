@@ -61,6 +61,33 @@ const projectData = [
       "A workflow management tool that helps teams and individuals organize tasks, communicate effectively, and boost productivity.",
     link: "https://apps.apple.com/us/app/manzoma/id6746369002",
   },
+  {
+    id: 7,
+    image: card6,
+    category: "Mobile App",
+    title: "Test Drive (Customer)",
+    description:
+      "Test Drive is your ultimate platform to experience cars before making a purchase decision. With just a few taps, you can book any available car, and the car owner will bring it directly to your location so you can take it for a real-world test drive. Our goal is to help users make smarter car-buying choices and ensure a smooth and safe driving experience before committing to a purchase.",
+    link: "https://play.google.com/store/apps/details?id=com.testdrive.onebillion",
+  },
+  // {
+  //   id: 8,
+  //   image: card6,
+  //   category: "Mobile App",
+  //   title: "Manzoma",
+  //   description:
+  //     "A workflow management tool that helps teams and individuals organize tasks, communicate effectively, and boost productivity.",
+  //   link: "https://apps.apple.com/us/app/manzoma/id6746369002",
+  // },
+  {
+    id: 9,
+    image: card6,
+    category: "Mobile App",
+    title: "Ghosn Coffee",
+    description:
+      "Ghosn Coffee is your trusted destination for premium coffee products. We are committed to providing our customers with the finest coffee experience, combining quality, authenticity, and excellent service. Through our website, you can explore a wide range of coffee products, learn about our latest offers, and shop easily with a smooth and secure checkout. All prices include VAT, with shipping costs calculated at checkout. Our Terms & Conditions and Privacy Policy ensure transparency, so you can shop with confidence. If you ever face any issues, our support team is here to help, and warranty coverage applies according to each product’s terms. At Ghosn Coffee, coffee is more than just a product — it’s a passion. Enjoy authentic flavors that connect tradition with modern quality. This application is owned by One Billion Agency. All rights reserved to One Billion Agency.",
+    link: "https://apps.apple.com/eg/app/ghosn-coffee/id6752111611",
+  },
 ];
 
 const Portfolio = () => {
